@@ -21,4 +21,4 @@ This is a simple static website for **Smart Home Solutions**, a company that ins
 
 ---
 
-Built with plain HTML and CSS for simplicity.
+
