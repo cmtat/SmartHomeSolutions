@@ -10,6 +10,9 @@ body {
     font-family: 'Inter', sans-serif;
     background: var(--color-bg);
     color: var(--color-text);
+
+    background: #ffffff;
+    color: #333;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -39,6 +42,7 @@ nav .logo {
     font-weight: 600;
     font-size: 1.25rem;
     color: var(--color-primary);
+    color: #0070f3;
 }
 
 nav ul {
@@ -54,6 +58,7 @@ nav ul li {
 
 nav ul li a {
     color: var(--color-text);
+    color: #333;
     text-decoration: none;
     padding: 0.4em 0.6em;
     border-bottom: 2px solid transparent;
@@ -64,6 +69,8 @@ nav ul li a.active,
 nav ul li a:hover {
     color: var(--color-primary);
     border-color: var(--color-primary);
+    color: #0070f3;
+    border-color: #0070f3;
 }
 
 main {
@@ -76,6 +83,8 @@ main {
 .hero {
     background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
     padding: 7rem 0;
+    background: linear-gradient(135deg, #f0f4ff, #e6f4ff);
+    padding: 4rem 2rem;
     border-radius: 12px;
     text-align: center;
     margin-bottom: 3rem;
@@ -124,6 +133,15 @@ h1 {
     background: #0059c3;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
+=======
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 0.5rem;
 }
 
 .services-list {
@@ -190,6 +208,7 @@ footer {
 
 .contact-form button {
     background: var(--color-primary);
+    background: #0070f3;
     color: #fff;
     border: none;
     padding: 0.7em 1.3em;
