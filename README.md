@@ -22,3 +22,4 @@ This is a simple static website for **Smart Home Solutions**, a company that ins
 ---
 
 Built with plain HTML and CSS for simplicity.
+The site uses Inter fonts and subtle gradients for a modern appearance.
